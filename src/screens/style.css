@@ -1,0 +1,100 @@
+.heading{
+    color: rgb(165, 227, 72);
+}
+
+
+#main {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh ;
+    padding-inline: 15px;
+    padding-block: 25px;
+    overflow: scroll;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.table-container {
+    border: 2px solid red;
+}
+
+.table-container td,
+.table-container th {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+
+
+#stage {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh ;
+    padding-inline: 15px;
+    padding-block: 25px;
+    overflow: scroll;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-inline: 10px;
+}
+
+.grid-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding-block: 10px;
+}
+
+
+
+
+
+
+
+
+#form {
+    height: 50vh;
+    padding-inline: 15px;
+    padding-block: 25px;
+}
+
+.pizza-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(242, 172, 86);
+}
+
+.form-clm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 10px;
+}
+
+.input {
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+}
